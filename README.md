@@ -14,20 +14,28 @@ A Stock Market Tracker Application using the [Frappe framework](https://frappefr
 
 ## Required DocTypes
 ### Stock(Master)
+- **Stock DocType fields**
 ![Stock DocType fields](./screenshots/stock.png)
+- **Stock DocType input**
 ![Stock DocType input](./screenshots/Stock.png)
 
 ### Transactions
+- **Transactions DocType fields**
 ![Transactions DocType fields](./screenshots/txn.png)
+- **Transactions input for buying shares**
 ![Transactions DocType input](./screenshots/txn1.png)
+- **Transactions input for selling shares**
 ![Transactions DocType input](./screenshots/txn2.png)
+- **Calculating total from quantity and price**
 ![Transactions DocType total](./screenshots/total.png)
 
 ---
 
 ### Webpage
 route: /stocks
+- **Webpage**
 ![Webpage displaying available stocks](./screenshots/website.png)
+- **HTML for Webpage**
 ![Webpage HTML Code](./screenshots/Website.png)
 
 ---
@@ -45,6 +53,8 @@ bench --site stocktracker.local install-app stocktracker
 
 bench start
 ```
+
+---
 
 ## TO-DO
 - [x] Bench Setup
