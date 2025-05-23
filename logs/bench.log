@@ -11,3 +11,16 @@
 2025-05-23 13:58:58,464 LOG setting up backups
 2025-05-23 13:58:58,472 LOG backups were set up
 2025-05-23 13:58:58,473 INFO Bench stockapp initialized
+2025-05-23 14:04:36,270 INFO /home/linuxbrew/.linuxbrew/bin/bench new-site stocktracker.local
+2025-05-23 14:05:12,688 INFO /home/linuxbrew/.linuxbrew/bin/bench new-app stocktracker
+2025-05-23 14:05:12,690 LOG creating new app stocktracker
+2025-05-23 14:05:40,556 LOG Installing stocktracker
+2025-05-23 14:05:40,557 DEBUG cd /home/nikhil/internship/stockapp && /home/nikhil/internship/stockapp/env/bin/python -m pip install --quiet --upgrade -e /home/nikhil/internship/stockapp/apps/stocktracker 
+2025-05-23 14:05:41,546 DEBUG bench build --app stocktracker
+2025-05-23 14:05:41,618 INFO /home/linuxbrew/.linuxbrew/bin/bench build --app stocktracker
+2025-05-23 14:05:52,580 INFO /home/linuxbrew/.linuxbrew/bin/bench --site stocktracker.local install-app stocktracker
+2025-05-23 14:05:58,015 INFO /home/linuxbrew/.linuxbrew/bin/bench start
+2025-05-23 14:05:58,161 INFO /home/linuxbrew/.linuxbrew/bin/bench watch
+2025-05-23 14:05:58,185 INFO /home/linuxbrew/.linuxbrew/bin/bench worker
+2025-05-23 14:05:58,191 INFO /home/linuxbrew/.linuxbrew/bin/bench schedule
+2025-05-23 14:05:58,191 INFO /home/linuxbrew/.linuxbrew/bin/bench serve --port 8000

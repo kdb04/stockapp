@@ -7,5 +7,15 @@
         "required": [],
         "idx": 1,
         "version": "16.0.0-dev"
+    },
+    "stocktracker": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "45fcdbabef62ef92834407bcb2abffbd899ff535",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
     }
 }
