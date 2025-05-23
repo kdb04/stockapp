@@ -2649,3 +2649,45 @@ index creation(creation))
 			ROW_FORMAT=DYNAMIC
 			CHARACTER SET=utf8mb4
 			COLLATE=utf8mb4_unicode_ci
+2025-05-23 14:12:38,158 WARNING database DDL Query made to DB:
+create table `tabStock` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-05-23 14:19:31,896 WARNING database DDL Query made to DB:
+ALTER TABLE `tabStock` ADD COLUMN `stocksymbol` varchar(140) UNIQUE, ADD COLUMN `companyname` varchar(140), ADD COLUMN `currentprice` decimal(21,9) NOT NULL DEFAULT 0.0, ADD COLUMN `lastupdated` datetime(6), ADD COLUMN `industry` varchar(140), ADD COLUMN `notes` text
+2025-05-23 14:19:31,898 WARNING database DDL Query made to DB:
+ALTER TABLE `tabStock` ADD UNIQUE INDEX IF NOT EXISTS stocksymbol (`stocksymbol`)
+2025-05-23 14:20:07,200 WARNING database DDL Query made to DB:
+create table `tabTransaction` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-05-23 14:25:34,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTransaction` ADD COLUMN `stock` varchar(140), ADD COLUMN `transactiontype` varchar(140), ADD COLUMN `transactiondate` varchar(140), ADD COLUMN `quantity` int NOT NULL DEFAULT 0, ADD COLUMN `price` decimal(21,9) NOT NULL DEFAULT 0.0, ADD COLUMN `total` decimal(21,9) NOT NULL DEFAULT 0.0
