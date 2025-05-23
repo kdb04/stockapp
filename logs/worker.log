@@ -317,3 +317,21 @@
 2025-05-23 14:50:01,634 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': '0118mqgcmu'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='stocktracker.local', user='Administrator') job in 0:00:00.167263s on worker 92fc1db2f3074a3097000e38e0fa8d96
 2025-05-23 14:50:01,634 home-nikhil-internship-stockapp:default: Job OK (stocktracker.local||scheduled_job||0118mqgcmu)
 2025-05-23 14:50:01,634 Result is kept for 600 seconds
+2025-05-23 14:50:58,263 Worker 92fc1db2f3074a3097000e38e0fa8d96 [PID 31138]: warm shut down requested
+2025-05-23 14:50:58,265 Unsubscribing from channel rq:pubsub:92fc1db2f3074a3097000e38e0fa8d96
+2025-05-23 14:51:02,545 Worker rq:worker:54dec1290aea40baaa73dfe6aa86a87f started with PID 34623, version 2.3.2
+2025-05-23 14:51:02,545 Subscribing to channel rq:pubsub:54dec1290aea40baaa73dfe6aa86a87f
+2025-05-23 14:51:02,545 *** Listening on home-nikhil-internship-stockapp:short, home-nikhil-internship-stockapp:default, home-nikhil-internship-stockapp:long...
+2025-05-23 14:51:02,546 Cleaning registries for queue: home-nikhil-internship-stockapp:short
+2025-05-23 14:51:02,546 Cleaning registries for queue: home-nikhil-internship-stockapp:default
+2025-05-23 14:51:02,547 Cleaning registries for queue: home-nikhil-internship-stockapp:long
+2025-05-23 14:51:38,198 Worker 54dec1290aea40baaa73dfe6aa86a87f [PID 34623]: warm shut down requested
+2025-05-23 14:51:38,200 Unsubscribing from channel rq:pubsub:54dec1290aea40baaa73dfe6aa86a87f
+2025-05-23 14:59:49,286 Worker rq:worker:87fe77455f2a4584a4cfb9352bcdd858 started with PID 37172, version 2.3.2
+2025-05-23 14:59:49,286 Subscribing to channel rq:pubsub:87fe77455f2a4584a4cfb9352bcdd858
+2025-05-23 14:59:49,287 *** Listening on home-nikhil-internship-stockapp:short, home-nikhil-internship-stockapp:default, home-nikhil-internship-stockapp:long...
+2025-05-23 14:59:49,287 Cleaning registries for queue: home-nikhil-internship-stockapp:short
+2025-05-23 14:59:49,288 Cleaning registries for queue: home-nikhil-internship-stockapp:default
+2025-05-23 14:59:49,289 Cleaning registries for queue: home-nikhil-internship-stockapp:long
+2025-05-23 15:00:06,169 Worker 87fe77455f2a4584a4cfb9352bcdd858 [PID 37172]: warm shut down requested
+2025-05-23 15:00:06,170 Unsubscribing from channel rq:pubsub:87fe77455f2a4584a4cfb9352bcdd858
